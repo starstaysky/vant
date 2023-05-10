@@ -1,5 +1,5 @@
 {
-  "private": true,
+  "private": false,
   "scripts": {
     "prepare": "husky install",
     "dev": "pnpm --dir ./packages/vant dev",
