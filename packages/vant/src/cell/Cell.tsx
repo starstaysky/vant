@@ -80,7 +80,7 @@ export default defineComponent({
         const titleSlot = slots.title?.();
 
         // Allow Field to dynamically set empty label
-        // https://github.com/youzan/vant/issues/11368
+        //  https://github.com/starstaysky/issues/11368
         if (Array.isArray(titleSlot) && titleSlot.length === 0) {
           return;
         }

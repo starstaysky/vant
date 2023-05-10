@@ -34,7 +34,7 @@ export const useHeight = (
   onPopupReopen(() => nextTick(setHeight));
 
   // The height of the element may change when the window is resized
-  // https://github.com/youzan/vant/issues/11325
+  //  https://github.com/starstaysky/issues/11325
   watch([windowWidth, windowHeight], setHeight);
 
   return height;

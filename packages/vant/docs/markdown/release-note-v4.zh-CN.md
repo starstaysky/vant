@@ -191,7 +191,7 @@ emit('clickInput');
 
 **本次更新同步发布了 Vant Cli 5.0 版本。**
 
-[Vant Cli](https://github.com/youzan/vant/tree/main/packages/vant-cli) 是 Vant 底层的组件库构建工具，本次更新内容有：
+[Vant Cli](https://github.com/starstaysky/tree/main/packages/vant-cli) 是 Vant 底层的组件库构建工具，本次更新内容有：
 
 - 升级 Vite 到 3.0 版本，并对相关的 Vite 插件进行升级。
 - 不再默认安装 `stylelint` 和 `@vant/stylelint-config` 依赖，需要的话可以自行安装：

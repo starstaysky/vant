@@ -157,7 +157,7 @@ export function getViteConfigForSiteDev(): InlineConfig {
     root: SITE_SRC_DIR,
 
     optimizeDeps: {
-      // https://github.com/youzan/vant/issues/10930
+      //  https://github.com/starstaysky/issues/10930
       include: ['vue', 'vue-router'],
     },
 

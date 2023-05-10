@@ -191,7 +191,7 @@ If your project is using an old version of Less theme customization, please use 
 
 **This update also releases Vant Cli 5.0.**
 
-[Vant Cli](https://github.com/youzan/vant/tree/main/packages/vant-cli) is the underlying component library construction tool of Vant. The content of this update includes:
+[Vant Cli](https://github.com/starstaysky/tree/main/packages/vant-cli) is the underlying component library construction tool of Vant. The content of this update includes:
 
 - Upgrade Vite to version 3.0, and upgrade related Vite plugins.
 - The `stylelint` and `@vant/stylelint-config` dependencies are no longer installed by default, you can install them yourself if needed:

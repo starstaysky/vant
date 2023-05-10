@@ -308,7 +308,7 @@ export default defineComponent({
       value = limitValueLength(value);
       // When the value length exceeds maxlength,
       // record the excess length for correcting the cursor position.
-      // https://github.com/youzan/vant/issues/11289
+      //  https://github.com/starstaysky/issues/11289
       const limitDiffLen =
         getStringLength(originalValue) - getStringLength(value);
 
